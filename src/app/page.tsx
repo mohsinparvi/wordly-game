@@ -10,7 +10,7 @@ export default function Home() {
         </div>
         <HeroSection />
         <div className="flex flex-col justify-center items-center my-10">
-          <div className=" w-full max-w-[1200px]">
+          <div className=" w-full max-w-[1100px]">
             <Score />
           </div>
         </div>
