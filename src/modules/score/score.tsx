@@ -8,7 +8,7 @@ const Score = () => {
           You score
         </button>
       </div>
-      <div className="flex justify-between items-center  flex-wrap ">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center space-y-3 ">
         <div className="flex flex-col justify-center items-center">
           <h3 className="font-bold text-base">Username</h3>
           <p className="font-normal text-sm">User not logged in</p>
@@ -22,7 +22,7 @@ const Score = () => {
           <p className="font-normal text-sm">6576faaa7aceda167d40fd66</p>
         </div>
       </div>
-      <div className="grid grid-cols-2 place-content-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 place-content-center my-2">
         <div className="flex flex-col justify-center items-center">
           <h3 className="font-bold text-base">Gussess</h3>
           <p className="font-normal text-sm">-</p>
