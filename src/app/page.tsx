@@ -1,10 +1,20 @@
-import Image from "next/image";
-import images from "../assets/bg-cover.svg";
+import HeroSection from "@/modules/hero-section/hero-section";
+import Navbar from "@/modules/navbar/navbar";
+import Score from "@/modules/score/score";
 export default function Home() {
   return (
-    <div className="bg-sectionbg overflow-hidden bg-cover h-full">
-      <h1>Home</h1>
-      <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+    <div className="bg-sectionbg  bg-cover h-full ">
+      <div className=" w-full ">
+        <div className="bg-white shadow-md">
+          <Navbar />
+        </div>
+        <HeroSection />
+        <div className="flex flex-col justify-center items-center my-10">
+          <div className=" w-full max-w-[1200px]">
+            <Score />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
