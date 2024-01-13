@@ -1,3 +1,5 @@
+import Faqs from "@/modules/faqs/faqs";
+import Footer from "@/modules/footer/footer";
 import GameDetials from "@/modules/game-detail/game-detials";
 import GameInfo from "@/modules/game-info/game-info";
 import HeroSection from "@/modules/hero-section/hero-section";
@@ -12,7 +14,7 @@ export default function Home() {
           <Navbar />
         </div>
         <HeroSection />
-        <div className="bg-[#FFEEDE]">
+        <div className="bg-[#FFEEDE] shadow-lg">
           <div className="flex flex-col justify-center items-center my-10 bg-white rounded-[3rem]">
             <div className=" w-full max-w-[1100px]">
               <Score />
@@ -22,12 +24,18 @@ export default function Home() {
           <div className="flex justify-center items-center ">
             <GameDetials />
           </div>
-          <div className="bg-[#FFEEDE]">
+          <div className="bg-[#FFEEDE] shadow-lg">
             <div className="flex flex-col justify-center items-center my-10 bg-white rounded-[3rem]">
               <div className=" w-full max-w-[1100px]">
                 <GameInfo />
               </div>
             </div>
+          </div>
+          <div className="bg-white">
+            <Faqs/>
+          </div>
+          <div className="bg-tertiary rounded-b-3xl ">
+        <Footer/>
           </div>
         </div>
       </div>
