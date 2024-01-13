@@ -34,7 +34,7 @@ export default function Home() {
           <div className="bg-white">
             <Faqs/>
           </div>
-          <div className="bg-tertiary rounded-b-3xl ">
+          <div className="bg-tertiary rounded-b-3xl lg:rounded-none ">
         <Footer/>
           </div>
         </div>
