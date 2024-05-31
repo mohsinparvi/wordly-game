@@ -14,7 +14,7 @@ export default function Home() {
           <Navbar />
         </div>
         <HeroSection />
-        <div className="bg-[#FFEEDE] shadow-lg">
+        {/* <div className="bg-[#FFEEDE] shadow-lg">
           <div className="flex flex-col justify-center items-center my-10 bg-white rounded-[3rem]">
             <div className=" w-full max-w-[1100px]">
               <Score />
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="bg-tertiary rounded-b-3xl lg:rounded-none ">
         <Footer/>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
